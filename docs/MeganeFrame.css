@@ -17,9 +17,6 @@ a:link{
 a:visited{
     color: #682a37;
 }
-ul {
-    list-style: none;
-}
 
 /* divとかに適応するといい感じの箱になって、そのdiv全体にリンクがつくやつです */
 .box {
@@ -29,14 +26,16 @@ ul {
     padding: 2%;
     margin: 5%;
     text-align: center;
+    position:relative;
     transition: all 0.3s;
 }
 .box a{
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 .box img{
     border: solid #586a66 2px;
@@ -48,4 +47,20 @@ ul {
     background-color: white;
     box-shadow: 2px 6px 8px 2px gray;
     transform: translate(0px, -5px);
+}
+/* アニメーションなしの時に良さげな箱。動かないけど色だけ変わる*/
+.box_n {
+    border: double #ff8fa5 5px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 2%;
+    margin: 5%;
+    text-align: center;
+}
+.box_n:hover{
+    background-color: white;
+}
+/* ボタン要素 */
+.btn{
+
 }
