@@ -1,0 +1,51 @@
+body{
+    margin: 0 15%;
+    text-align: center;
+    background-color: #edeff1;
+    color: #586a66;
+}
+h1 {
+    color: white;   
+    background-color: #ff8fa5;
+}
+h2{
+    border-bottom: dotted pink 10px;
+}
+a:link{
+    color: #c25067;
+}
+a:visited{
+    color: #682a37;
+}
+ul {
+    list-style: none;
+}
+
+/* divとかに適応するといい感じの箱になって、そのdiv全体にリンクがつくやつです */
+.box {
+    border: double #ff8fa5 5px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 2%;
+    margin: 5%;
+    text-align: center;
+    transition: all 0.3s;
+}
+.box a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+.box img{
+    border: solid #586a66 2px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 3%;
+}
+.box:hover{
+    background-color: white;
+    box-shadow: 2px 6px 8px 2px gray;
+    transform: translate(0px, -5px);
+}
