@@ -70,6 +70,12 @@ a:visited{
     box-shadow: 0px 0px 0px 5px #ff8fa5;
     padding: 7px 14px;
     margin: 10px;
+    transition: all 0.3s;
+}
+.btn1:hover{
+    border-color: #eb607b;
+    background-color: #fdafbf;
+    box-shadow: 0px 0px 0px 5px #fdafbf;
 }
 .btn2{
     display: inline-block;
@@ -80,4 +86,9 @@ a:visited{
     box-shadow: 0px 0px 0px 5px white;
     padding: 7px 14px;
     margin: 10px;
+    transition: all 0.3s;
+}
+.btn2:hover{
+    border-color: #fdafbf;
+    color: #fca1b3;
 }
