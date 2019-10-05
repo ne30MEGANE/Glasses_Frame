@@ -1,19 +1,28 @@
 /* 命名規約
-　　クラス名の頭はに mf_
+　　クラス名の頭は mf_
  */
 
 .mf_body{
-    margin: 0 15%;
-    text-align: center;
     background-color: #edeff1;
     color: #586a66;
 }
 .mf_h1 {
     color: white;   
     background-color: #ff8fa5;
+    border-bottom: solid #eb607b 5px;
+    padding-left: 10px;
 }
 .mf_h2{
     border-bottom: dotted pink 10px;
+    padding-left: 10px;
+}
+
+.mf_title{
+    padding: 200px 100px 10px 10px;
+    background: linear-gradient(45deg, #ff5977 0%,#ff9eaf 40%,#ff8fa5 41%,#ffbac6 100%);
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
 }
 
 /* divとかに適応するといい感じの箱になって、そのdiv全体にリンクがつくやつです */
@@ -54,6 +63,7 @@
     padding: 2%;
     margin: 5%;
     text-align: center;
+    transition: all 0.3s;
 }
 .mf_box_n:hover{
     background-color: white;
@@ -93,5 +103,24 @@
 
 /* nav要素のやつ */
 .mf_nav{
-
+    text-align: center;
+    margin: 3%;
+}
+.mf_nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+    margin: 50px;
+}
+.mf_nav ul li{
+    color: #ff8fa5;
+    font-weight: bold;
+    margin: 0px 5%;
+    padding: 4px;
+} 
+.mf_nav ul li:hover{
+    box-shadow:0px 0px 5px 0px #eb607b inset;
+    text-shadow: 1px 2px 1px white;
+    background-color: #f5f5f5; 
+    color: #eb607b;
 }
