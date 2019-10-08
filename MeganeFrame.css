@@ -1,31 +1,36 @@
-/* 命名規約
-　　クラス名の頭は mf_
+/* 命名規約的な
+　　クラス名の頭 mf_
  */
 
-.mf_body{
+
+/* 基本的なやつたち */
+
+.mf_body {
     background-color: #edeff1;
     color: #586a66;
 }
+
 .mf_h1 {
-    color: white;   
+    color: white;
     background-color: #ff8fa5;
     border-bottom: solid #eb607b 5px;
     padding-left: 10px;
 }
-.mf_h2{
+
+.mf_h2 {
     border-bottom: dotted pink 10px;
     padding-left: 10px;
 }
 
-.mf_title{
-    padding: 200px 100px 10px 10px;
-    background: linear-gradient(45deg, #ff5977 0%,#ff9eaf 40%,#ff8fa5 41%,#ffbac6 100%);
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
+.mf_footer {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
 }
 
-/* divとかに適応するといい感じの箱になって、そのdiv全体にリンクがつくやつです */
+
+/* divとかに適応するといい感じの箱になって、そのdiv全体にリンクがつくやつ */
+
 .mf_box {
     border: double #ff8fa5 5px;
     border-radius: 15px;
@@ -33,10 +38,11 @@
     padding: 2%;
     margin: 5%;
     text-align: center;
-    position:relative;
+    position: relative;
     transition: all 0.3s;
 }
-.mf_box a{
+
+.mf_box a {
     display: block;
     position: absolute;
     top: 0;
@@ -44,18 +50,23 @@
     height: 100%;
     width: 100%;
 }
-.mf_box img{
+
+.mf_box img {
     border: solid #586a66 2px;
     border-radius: 5px;
     width: 80%;
     margin: 3%;
 }
-.mf_box:hover{
+
+.mf_box:hover {
     background-color: white;
     box-shadow: 2px 6px 8px 2px gray;
     transform: translate(0px, -5px);
 }
+
+
 /* アニメーションなしの時に良さげな箱。動かないけど色だけ変わる*/
+
 .mf_box_n {
     border: double #ff8fa5 5px;
     border-radius: 15px;
@@ -65,11 +76,15 @@
     text-align: center;
     transition: all 0.3s;
 }
-.mf_box_n:hover{
+
+.mf_box_n:hover {
     background-color: white;
 }
+
+
 /* ボタン要素 */
-.mf_btn1{
+
+.mf_btn1 {
     text-decoration: none;
     display: inline-block;
     border: dashed #c25067 2px;
@@ -81,12 +96,14 @@
     margin: 10px;
     transition: all 0.3s;
 }
-.mf_btn1:hover{
+
+.mf_btn1:hover {
     border-color: #eb607b;
     background-color: #fdafbf;
     box-shadow: 0px 0px 0px 5px #fdafbf;
 }
-.mf_btn2{
+
+.mf_btn2 {
     text-decoration: none;
     display: inline-block;
     border: dashed #c25067 2px;
@@ -98,31 +115,37 @@
     margin: 10px;
     transition: all 0.3s;
 }
-.mf_btn2:hover{
+
+.mf_btn2:hover {
     border-color: #fdafbf;
     color: #fca1b3;
 }
 
+
 /* nav要素のやつ */
-.mf_nav{
+
+.mf_nav {
     text-align: center;
     margin: 3%;
 }
-.mf_nav ul li{
+
+.mf_nav ul li {
     list-style: none;
     display: inline-block;
     width: 15%;
     margin: 50px;
 }
-.mf_nav ul li{
+
+.mf_nav ul li {
     color: #ff8fa5;
     font-weight: bold;
     margin: 0px 5%;
     padding: 4px;
-} 
-.mf_nav ul li:hover{
-    box-shadow:0px 0px 5px 0px #eb607b inset;
+}
+
+.mf_nav ul li:hover {
+    box-shadow: 0px 0px 5px 0px #eb607b inset;
     text-shadow: 1px 2px 1px white;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
     color: #eb607b;
 }
