@@ -1,5 +1,6 @@
-/* 命名規約的な
-　　クラス名の頭 mf_
+/* 
+命名規約的な
+クラス名の頭 mf_
  */
 
 
@@ -23,13 +24,22 @@
 }
 
 .mf_footer {
-    position: relative;
-    bottom: 0px;
+    background-color: #ff8fa5;
     text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.mf_footer a {
+    color: yellow;
+}
+
+.mf_footer a:visited {
+    color: #c25067;
 }
 
 
-/* divとかに適応するといい感じの箱になって、そのdiv全体にリンクがつくやつ */
+/* 箱系のやつ */
 
 .mf_box {
     border: double #ff8fa5 5px;
@@ -101,6 +111,7 @@
     border-color: #eb607b;
     background-color: #fdafbf;
     box-shadow: 0px 0px 0px 5px #fdafbf;
+    cursor: pointer;
 }
 
 .mf_btn2 {
@@ -119,6 +130,7 @@
 .mf_btn2:hover {
     border-color: #fdafbf;
     color: #fca1b3;
+    cursor: pointer;
 }
 
 
@@ -148,4 +160,5 @@
     text-shadow: 1px 2px 1px white;
     background-color: #f5f5f5;
     color: #eb607b;
+    cursor: pointer;
 }

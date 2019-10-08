@@ -10,7 +10,6 @@ footer {
 }
 
 .title {
-    margin: 0px;
     padding: 200px 100px 10px 10px;
     background: linear-gradient(45deg, #ff5977 0%, #ff9eaf 40%, #ff8fa5 41%, #ffbac6 100%);
     font-weight: bold;
