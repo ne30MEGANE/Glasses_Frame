@@ -6,36 +6,28 @@
 
 /* 基本的なやつたち */
 
-.mf_body {
+body {
     background-color: #edeff1;
     color: #586a66;
 }
 
-.mf_h1 {
+h1 {
     color: white;
     background-color: #ff8fa5;
     border-bottom: solid #eb607b 5px;
     padding-left: 10px;
 }
 
-.mf_h2 {
+h2 {
     border-bottom: dotted pink 10px;
     padding-left: 10px;
 }
 
-.mf_footer {
+footer {
     background-color: #ff8fa5;
     text-align: center;
     color: whitesmoke;
     padding-top: 20px;
-}
-
-.mf_footer a {
-    color: yellow;
-}
-
-.mf_footer a:visited {
-    color: #c25067;
 }
 
 
